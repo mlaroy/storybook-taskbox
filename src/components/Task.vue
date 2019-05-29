@@ -9,7 +9,7 @@
       />
       <span class="checkbox-custom" @click="$emit('archiveTask', task.id)"/>
     </label>
-    <div class="title">
+    <div class="title papaya">
       <input type="text" :readonly="true" :value="this.task.title" placeholder="Input title" />
     </div>
     <div class="actions">
@@ -39,3 +39,9 @@ export default {
   }
 };
 </script>
+
+<style>
+.papaya {
+    background: pink;
+}
+</style>
