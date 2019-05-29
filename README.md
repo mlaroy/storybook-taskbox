@@ -1,5 +1,7 @@
 # taskbox
 
+View on [Netlify](https://peaceful-lamport-20ca54.netlify.com/)
+
 ## Project setup
 ```
 npm install
